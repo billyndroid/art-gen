@@ -5,9 +5,17 @@ function setup() {
   noLoop();
 }
 function draw() {
-  strokeWeight(6); // Thicker
- line(20, 40, 80, 40);
- ellipse(20, 50, 50, 20);
+  strokeWeight(3); 
+  line(20, 140, 70, 440);
+  rectMode(CORNER);
+  ellipseMode(CENTER);
+  strokeCap(ROUND);
+  rect(0, 0, 100, 100, 10);
+  rectMode(CENTER);
+  rect(100, 100, 30, 40, 40);
+  ellipse(330, 430, 330, 70)
+  circle(260, 40, 23, 4);
+  triangle(750, 200, 900, 300, 555, 222);
 }
 
 
