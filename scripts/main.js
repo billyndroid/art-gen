@@ -2,23 +2,21 @@
 function setup() {
   createCanvas(1200, 500);
   background(200, 24, 144);
-  noLoop();
+  
 }
 function draw() {
-  
-  strokeWeight(3); 
- 
-
-  fill(255, 0, 0);
+  strokeWeight(3);
+  let y = 440;
+  fill(mouseY);
   stroke(0, 0, 255)
   rect(0, 0, 100, 100, 10);
   rectMode(CENTER);
-  let x = 240;
-  let y = 440;
-  rect(x, y, 30, 40, 40);
+ 
+  rect(mouseX, y, 30, 40, 40);
+}
+ /*
+
   ellipseMode(CENTER);
-
-
   erase(40, 80);
   ellipse(330, 430, 330, 70);
   circle(260, 40, 23);
@@ -27,7 +25,7 @@ function draw() {
   noErase();
 }
   
-/*
+
   rotateX(frameCount * 0.01);
   rotateY(frameCount * 0.01);
   box(45, 45, 45);
@@ -58,4 +56,10 @@ let words = ['apple', 'bear', 'cat', 'dog'];
 let word = random(words);
 text(word, 10, 50);
 line(50, r, x, y);
-}*/
+}
+
+let x = 240;
+  let y = 440;
+
+
+*/
