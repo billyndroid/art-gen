@@ -1,14 +1,12 @@
-let detailX;
-// slide to see how detailX works
+// Clicking in the box toggles fullscreen on and off.
 function setup() {
-  createCanvas(1350, 500, WEBGL);
-  detailX = createSlider(3, 24, 3);
-  detailX.position(10, height + 5);
-  detailX.style('width', '80px');
+  background(200);
 }
-
-function draw() {
-  background(205, 105, 94);
-  rotateY(millis() / 1000);
-  sphere(40, detailX.value(), 16);
+function mousePressed() {
+  if (mouseX > 0 && mouseX < 100 && mouseY > 0 && mouseY < 100) {
+    let fs = fullscreen();
+    fullscreen(!fs);
+    background(205, 102, 94);
+  sphere(40);
+  }
 }
