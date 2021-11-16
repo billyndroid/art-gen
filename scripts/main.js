@@ -1,18 +1,29 @@
-// Clicking in the box toggles fullscreen on and off.
+let circleX = 100
 function setup() {
   createCanvas(1200, 500);
   background(200, 24, 144);
   
 }
+
 function draw() {
+  
   strokeWeight(3);
   let y = 440;
   fill(mouseY);
   stroke(0, 0, 255)
-  rect(0, 0, 100, 100, 10);
+  rect(0, 0, mouseY, 100, 10);
   rectMode(CENTER);
- 
-  rect(mouseX, y, 30, 40, 40);
+ circleX =circleX+3;
+  circle(circleX, 150, 60);
+}
+let div = createDiv('this is some text');
+div.style('font-size', '16px');
+div.position(10, 0);
+
+
+function mousePressed() {
+  background(200, 24, 144);
+  circleX = 0;
 }
  /*
 
