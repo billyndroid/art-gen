@@ -21,7 +21,7 @@ function draw() {
 
   erase(40, 80);
   ellipse(330, 430, 330, 70);
-  circle(260, 40, 23, 4);
+  circle(260, 40, 23);
   noStroke();
   triangle(750, 200, 900, 300, 555, 222);
   noErase();
