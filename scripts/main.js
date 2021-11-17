@@ -4,7 +4,6 @@ function setup() {
   background(200, 24, 144);
   
 }
-
 function draw() {
   
   strokeWeight(3);
