@@ -1,57 +1,129 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: dodgerblue;
+    background-color: dodgerblue;  
+    font-family: proxima-nova, sans-serif;
+    font-weight: 1200;
+    font-style: normal;
+    color: ghostwhite;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-right: 50px;
+   
 }
 
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: ghostwhite;
+}
 
+img {
+    margin: 25px;
+}
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+/* adobe fonts Proxima Nova Bold
 
-/* adobe fonts
 font-family: proxima-nova, sans-serif;
+
 font-weight: 700;
+
 font-style: normal;
+
 Proxima Nova Bold Italic
-font-family: proxima-nova, sans-serif;
-font-weight: 700;
-font-style: italic;
-Proxima Nova Regular
-font-family: proxima-nova, sans-serif;
-font-weight: 400;
-font-style: normal;
-Proxima Nova Italic
-font-family: proxima-nova, sans-serif;
-font-weight: 400;
-font-style: italic;
-Proxima Nova Extra Condensed Bold Italic
-font-family: proxima-nova-extra-condensed, sans-serif;
-font-weight: 700;
-font-style: italic;
-Proxima Nova Extra Condensed Bold
-font-family: proxima-nova-extra-condensed, sans-serif;
-font-weight: 700;
-font-style: normal;
-Proxima Nova Extra Condensed Italic
-font-family: proxima-nova-extra-condensed, sans-serif;
-font-weight: 400;
-font-style: italic;
-Proxima Nova Extra Condensed Regular
-font-family: proxima-nova-extra-condensed, sans-serif;
-font-weight: 400;
-font-style: normal;
-Proxima Nova Condensed Bold
-font-family: proxima-nova-condensed, sans-serif;
-font-weight: 700;
-font-style: normal;
-Proxima Nova Condensed Bold Italic
-font-family: proxima-nova-condensed, sans-serif;
-font-weight: 700;
-font-style: italic;
-Proxima Nova Condensed Regular
-font-family: proxima-nova-condensed, sans-serif;
-font-weight: 400;
-font-style: normal;
-Proxima Nova Condensed Italic
-font-family: proxima-nova-condensed, sans-serif;
-font-weight: 400;
-font-style: italic;*/
 
+font-family: proxima-nova, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+Proxima Nova Regular
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Proxima Nova Italic
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+Proxima Nova Extra Condensed Bold Italic
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+Proxima Nova Extra Condensed Bold
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+Proxima Nova Extra Condensed Italic
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+Proxima Nova Extra Condensed Regular
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Proxima Nova Condensed Bold
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+Proxima Nova Condensed Bold Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+Proxima Nova Condensed Regular
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+Proxima Nova Condensed Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
